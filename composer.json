@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "gabrielfemi/my-first-laravel-package",
+    "description": "My first laravel package",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "gabrielfemi",
+        "my-first-laravel-package"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/gabrielfemi/my-first-laravel-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "Gabriel Akinyosoye",
+            "email": "gabrielfemi799@gmail.com",
+            "homepage": "https://github.com/GabrielFemi",
             "role": "Developer"
         }
     ],
@@ -26,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Gabrielfemi\\MyFirstLaravelPackage\\": "src",
+            "Gabrielfemi\\MyFirstLaravelPackage\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Gabrielfemi\\MyFirstLaravelPackage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,23 +46,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Gabrielfemi\\MyFirstLaravelPackage\\MyFirstLaravelPackageServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "MyFirstLaravelPackage": "Gabrielfemi\\MyFirstLaravelPackage\\MyFirstLaravelPackageFacade"
             }
         }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "funding": [
-        {
-            "type": "github",
-            "url": "https://github.com/sponsors/spatie"
-        },
-        {
-            "type": "other",
-            "url": "https://spatie.be/open-source/support-us"
-        }
-    ]
 }
