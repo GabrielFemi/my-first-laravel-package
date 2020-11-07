@@ -3,8 +3,6 @@
 
 namespace Feature\Commands;
 
-
-use Gabrielfemi\MyFirstLaravelPackage\Commands\MyFirstLaravelPackageCommand;
 use Gabrielfemi\MyFirstLaravelPackage\Tests\TestCase;
 
 class MyFirstLaravelPackageCommandTest extends TestCase
