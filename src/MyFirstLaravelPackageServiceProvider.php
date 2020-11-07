@@ -2,8 +2,8 @@
 
 namespace Gabrielfemi\MyFirstLaravelPackage;
 
-use Illuminate\Support\ServiceProvider;
 use Gabrielfemi\MyFirstLaravelPackage\Commands\MyFirstLaravelPackageCommand;
+use Illuminate\Support\ServiceProvider;
 
 class MyFirstLaravelPackageServiceProvider extends ServiceProvider
 {

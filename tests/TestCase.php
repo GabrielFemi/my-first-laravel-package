@@ -2,9 +2,9 @@
 
 namespace Gabrielfemi\MyFirstLaravelPackage\Tests;
 
+use Gabrielfemi\MyFirstLaravelPackage\MyFirstLaravelPackageServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Gabrielfemi\MyFirstLaravelPackage\MyFirstLaravelPackageServiceProvider;
 
 class TestCase extends Orchestra
 {
